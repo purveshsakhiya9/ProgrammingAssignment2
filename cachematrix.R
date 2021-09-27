@@ -1,6 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-
+## the first function creates the cache matrix which returs null if inv is not solved else the inv matrix is printed
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+## This function set the cache as inv matrix and returns when its called saying getting cached data with inv matrix
 cacheSolve <- function(x, ...) {
   inv <- x$getinverse()
   if(!is.null(inv)) {
